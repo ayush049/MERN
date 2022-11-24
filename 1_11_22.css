@@ -1,0 +1,28 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    position: relative;
+    width:360px;
+    height: 460px;
+    margin-top: 150px;
+    background: rgb(0,0,5);
+    transform: rotate(-30deg) skew(25deg) scale(.8);
+    transition: 0.5s;
+}
+.container img{
+    position: absolute;
+    width: 100%;
+    height: 460px;
+    transition: 0.5s;
+}
+.container:hover img:nth-child(4){
+    transform: translste(160px,-160px);
+    
+}
