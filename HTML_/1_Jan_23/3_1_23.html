@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hello</title>
+    <script>
+        let b=new Function("n1","n2","return n2-n1");// new is used to create object
+        document.write(b(4,8))
+
+        student={name: "admin",id:"admin"}
+        document.write(student.name+ " " +student.id);
+
+        let obj=new Object();
+        obj.name="rahul";
+        obj.id=33;
+        obj.marks=45;
+        document.write(obj.name+ " " + obj.id+ " " +obj.marks);
+        
+        function d(a,b){
+            document.write(a+" "+b);
+        //     let id=121
+        //     let pwd=333
+        //     if(id==a){
+        //         if(pwd==b)
+        //             document.write("Access Granted")
+        //         else
+        //             document.write("Access Denied")
+        //     }
+        // else{
+        //         document.write("Access Denied")
+        //     }
+        }
+    </script>
+</head>
+<body>
+    <input type="button" value="click" onclick="d(121,33)">
+</body>
+</html>

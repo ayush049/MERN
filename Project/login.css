@@ -74,34 +74,12 @@ border-radius:20px;
 .login input[type="submit"]:hover
 {
 color:white;
-/* background:darkgrey; */
-background: radial-gradient(#03a0f4,#f441a5,#ffeb3b,#03a9f4);
+background:darkgrey;
+/* background: radial-gradient(#03a0f4,#f441a5,#ffeb3b,#03a9f4); */
 cursor:pointer;
-animation-name: animate;
-animation-duration: 2s;
-animation: animate 2s linear infinite;
+
 }
-/* a:hover{ */
-/* .login input[type="submit"]:hover{
-    animation: animate 2s linear infinite;
-} */
-@keyframes animate{
-    0%{
-        background-color: #f441a5;
-    }
-    30%{
-        background-color: aqua;
-    }
-    60%{
-        background-color: rgb(205, 237, 227);
-    }
-    90%{
-        background-color: rgb(105, 114, 114);
-    }
-    30%{
-        background-color: rgb(167, 184, 184);
-    }
-}
+
 .login a
 {
 text-decoration:none;
